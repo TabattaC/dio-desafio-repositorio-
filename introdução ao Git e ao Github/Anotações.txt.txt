@@ -1,0 +1,38 @@
+Comandos Básicos para um bom desempenho no terminal.
+
+- dir = Lista de diretórios
+- cd  = Base do diretório. Permite a navegação entre pastas.
+- cd..= Retroceder 2 niveis.
+- crtr+L= Limpar o terminal.
+- tab = autocompleta
+- mkdir= criar uma pasta.
+- echo= printa de volta ao terminal uma frase.
+- del= deletar apenas o arquivo dentro da pasta
+
+
+Primeiros comandos com o Git
+
+- gitinit = Avisa que foi criado um repositório vazio dentro do pasta.
+- git-config--global user.email""
+- git-config--global user.name""
+- git-add = Move arquivos [untracked] para [Staged] e tambem arquivos modificados.
+- git commit-m "__"= Pega todos os arquivos que estão em staged, envelopando em uma mensagem
+colcando um significado.
+- git status = Esse comando ajuda a monitorar o status dos arquivos.
+- git remote-v = Vai listar a lista de repositórios remotos
+- git clone [colar a URL]  = Clonar um arquivo no Github
+ 
+
+Git init
+Cria um repositório
+- Tracked = arquivos que o gi tem ciencia da existência deles.
+- umodified = arquivo que ainda não foi modificado.
+- modified = arquivo que sofreu modificações.
+- Staged = Onde fica os arquivos que estão se preparando para poder fazer parte de outro tipo de 
+agrupamento. [se preparando para fazer parte de um commit].
+
+IMPORTÂNTE
+	Quando se faz um commit ele passa a integrar o repositório local e que por sua vez pode ser
+'empurrado' para um repositório remoto.
+	O Repositório local é composto por commits para que possa ser colocado em um repositório remoto.
+	
